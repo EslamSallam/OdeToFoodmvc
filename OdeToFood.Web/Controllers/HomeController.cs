@@ -8,6 +8,8 @@ namespace OdeToFood.Web.Controllers
 {
     public class HomeController : Controller
     {
+        IRestuarant db;
+
         public ActionResult Index()
         {
             return View();
